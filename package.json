@@ -1,22 +1,25 @@
 {
-  "name": "bdb",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BuntinJP/BDB.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BuntinJP/BDB/issues"
-  },
-  "homepage": "https://github.com/BuntinJP/BDB#readme",
-  "dependencies": {
-    "discord.js": "^14.7.1"
-  }
+    "name": "bdb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "run": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BuntinJP/BDB.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BuntinJP/BDB/issues"
+    },
+    "homepage": "https://github.com/BuntinJP/BDB#readme",
+    "dependencies": {
+        "discord.js": "^14.7.1",
+        "nedb-promises": "^6.2.1"
+    }
 }
