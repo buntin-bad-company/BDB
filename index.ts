@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const Datastore = require('nedb-promises');
 
-const { setTimeout } = require('timers/promises');
+import { setTimeout } from 'timers/promises';
 // Require the necessary discord.js classes
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
