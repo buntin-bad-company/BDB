@@ -4,7 +4,7 @@ const Datastore = require('nedb-promises');
 
 import { setTimeout } from 'timers/promises';
 // Require the necessary discord.js classes
-const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
+import { Client, Collection, Events, GatewayIntentBits } from 'discord.js';
 const { token } = require('./config.json');
 
 /// Create a new client instance
